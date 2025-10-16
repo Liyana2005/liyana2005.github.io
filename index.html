@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Liyana - Data Analyst Portfolio</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#works">Works</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <h1>Hi, I am Liyana</h1>
+                <p>A passionate Data Analyst transforming data into actionable insights.</p>
+                <a href="#contact" class="cta-button">Hire Me</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile-photo.jpg" alt="A photo of Liyana">
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2 data-aos="fade-up">About Me</h2>
+            <div class="about-container">
+                <div class="about-image" data-aos="fade-right" data-aos-delay="200">
+                    <img src="images/about-photo.jpg" alt="A photo of Liyana for the about section">
+                </div>
+                <div class="about-text" data-aos="fade-left" data-aos-delay="400">
+                    <h3>Hello from Palakkad, Kerala! 👋</h3>
+                    <p>
+                        I am Liyana, a passionate and detail-oriented <strong>Data Analyst</strong> with a strong foundation in statistical analysis, data visualization, and machine learning. My goal is to transform raw data into <strong>data-driven insights</strong> that help businesses make smarter, more effective decisions.
+                    </p>
+                    <p>
+                        Through extensive project work and internships, I have gained hands-on experience in the complete data analysis lifecycle, from cleaning and preprocessing complex datasets to presenting <strong>actionable intelligence</strong>. I am eager to apply my skills to solve real-world problems and contribute to a forward-thinking organization.
+                    </p>
+                    <a href="assets/My_CV.pdf" class="cta-button" download>Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section">
+            <h2 data-aos="fade-up">My Skills</h2>
+            <div class="skills-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill-card">Python (Pandas & NumPy)</div>
+                <div class="skill-card">SQL</div>
+                <div class="skill-card">Tableau</div>
+                <div class="skill-card">Excel (Advanced)</div>
+                <div class="skill-card">Data Visualization</div>
+                <div class="skill-card">Statistical Analysis</div>
+                <div class="skill-card">Machine Learning Concepts</div>
+                <div class="skill-card">Data Cleaning</div>
+            </div>
+        </section>
+
+        <section id="works" class="content-section">
+            <h2 data-aos="fade-up">My Works</h2>
+            <div class="works-container">
+                <div class="work-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/project1.jpeg" alt="Project 1 Screenshot">
+                    <h3>Project Title 1</h3>
+                    <p>Use the Problem-Action-Result method to describe your project here.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="work-card" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images/project2.jpeg" alt="Project 2 Screenshot">
+                    <h3>Project Title 2</h3>
+                    <p>Use the Problem-Action-Result method to describe your project here.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="content-section">
+            <h2 data-aos="fade-up">Certifications</h2>
+            <div class="certifications-container">
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>IEEE International</h3>
+                    <p>Issued by: IEEE</p>
+                    <a href="images\liya-IEEE.pdf" target="_blank">View Credential</a>
+                </div>
+                <div class="cert-card" data-aos="fade-up" data-aos-delay="400">
+                    <h3>Data Analyst Workshop</h3>
+                    <p>Issued by: Deloitte</p>
+                    <a href="images\liya-sample.pdf" target="_blank">View Credential</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2 data-aos="fade-up">Contact Me</h2>
+            <p data-aos="fade-up">Have a question or want to work together? Leave a message!</p>
+            <form action="https://formspree.io/f/mgvnnzek" method="POST" data-aos="fade-up" data-aos-delay="200">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/liyana-faisal-269b62326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/_liyana._.fx_?igsh=b3N0aXA5anRxNHFy" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>&copy; 2025 Liyana. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 1000, // Animation duration in milliseconds
+          once: true, // Whether animation should happen only once - while scrolling down
+      });
+    </script>
+</body>
+</html>
